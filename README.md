@@ -85,11 +85,11 @@ Once you have installed the devmode app on your target TV and logged in with you
 ./dev.sh ares-device-info -d tv
 
 # This command installs the app. Remember to build it first.
-./dev.sh ares-install -d tv org.jellyfin.webos_*.ipk
+./dev.sh ares-install -d tv org.jellyfin.webos.clone_*.ipk
 
 # Launch the app and the web developer console.
-./dev.sh ares-inspect -d tv org.jellyfin.webos
+./dev.sh ares-inspect -d tv org.jellyfin.webos.clone
 
 # Or just launch the app.
-./dev.sh ares-launch -d tv org.jellyfin.webos
+./dev.sh ares-launch -d tv org.jellyfin.webos.clone
 ```

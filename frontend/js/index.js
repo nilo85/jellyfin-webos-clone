@@ -627,7 +627,7 @@ function startDiscovery() {
         return;
     }
     console.log("Starting server autodiscovery...");
-    discover = webOS.service.request("luna://org.jellyfin.webos.service", {
+    discover = webOS.service.request("luna://org.jellyfin.webos.clone.service", {
         method: "discover",
         parameters: {
             uniqueToken: 'fooo'
